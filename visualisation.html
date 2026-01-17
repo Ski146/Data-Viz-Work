@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Natural Disasters Timeline</title>
+  <link rel="stylesheet" href="viz2.css">
+</head>
+
+<body>
+
+  <h1>Natural Disasters Timeline (2016–2017)</h1>
+  <p>Created by Siju Saji</p>
+
+  <svg width="1000" height="600">
+
+    <!-- Month labels -->
+    <text x="150" y="80">Jan</text>
+    <text x="275" y="80">Mar</text>
+    <text x="400" y="80">May</text>
+    <text x="525" y="80">Jul</text>
+    <text x="650" y="80">Sep</text>
+    <text x="775" y="80">Nov</text>
+
+    <!-- 2017 timeline -->
+    <line x1="150" y1="200" x2="900" y2="200" stroke="black" stroke-width="2"/>
+    <text x="100" y="205" text-anchor="end" font-size="16">2017</text>
+
+    <!-- 2017 disasters -->
+    <!-- Hurricane Harvey (Aug 27, 2017 – tropical cyclone – cost 125) -->
+    <circle cx="650" cy="200" r="30" fill="#081d58" opacity="0.6"/>
+
+    <!-- South/Southeast Severe Weather (Mar 26, 2017 – severe storm – cost 2.1) -->
+    <circle cx="310" cy="200" r="10" fill="#c7e9b4" opacity="0.6"/>
+
+    <!-- Missouri and Arkansas Flooding (Apr 25, 2017 – flooding – cost 1.7) -->
+    <circle cx="360" cy="200" r="9" fill="#41b6c4" opacity="0.6"/>
+
+    <!-- Southern Tornado Outbreak (Jan 20, 2017 – severe storm – cost 1.1) -->
+    <circle cx="200" cy="200" r="8" fill="#c7e9b4" opacity="0.6"/>
+
+
+    <!-- 2016 timeline -->
+    <line x1="150" y1="350" x2="900" y2="350" stroke="black" stroke-width="2"/>
+    <text x="100" y="355" text-anchor="end" font-size="16">2016</text>
+
+    <!-- 2016 disasters -->
+    <!-- Louisiana Flooding (Aug 12, 2016 – flooding – cost 10.3) -->
+    <circle cx="610" cy="350" r="18" fill="#41b6c4" opacity="0.6"/>
+
+    <!-- Hurricane Matthew (Oct 8, 2016 – tropical cyclone – cost 10.3) -->
+    <circle cx="720" cy="350" r="18" fill="#081d58" opacity="0.6"/>
+
+    <!-- Wildfires (Jun 1, 2016 – drought/wildfire – cost 2.5) -->
+    <circle cx="470" cy="350" r="12" fill="#ffffd9" opacity="0.6"/>
+
+    <!-- North Texas Hail Storm (Mar 23, 2016 – severe storm – cost 2.1) -->
+    <circle cx="300" cy="350" r="10" fill="#c7e9b4" opacity="0.6"/>
+
+  </svg>
+
+</body>
+</html>

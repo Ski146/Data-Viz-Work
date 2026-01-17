@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;}
+h1 {
+  margin-bottom: 5px;}
+p {
+  margin-top: 0;
+  color: #555;}
+svg {
+  border: 1px solid #eee;}
